@@ -4,7 +4,7 @@ $color3: #ED6663;
 $color4: #FFA372;
 
 
-
+//Declares a mixin that takes two arguments, minwidth and maxwidth
 @mixin resolutions($minwidth, $maxwidth) {
     @media screen and (min-width: $minwidth) and (max-width:$maxwidth){
         @content
@@ -16,7 +16,7 @@ body {
     border: 0;
 }
 
-//IMAGES
+//@media tags that change the image and the images' size of the body depending on the screen size
 @media screen and (min-width: 801px) {
     .pic {
         background-image: url(Images/400x400.png);
@@ -41,6 +41,7 @@ body {
     }
 }
 
+//The following code is for the header and the main section of the page
 .text {
     color: #969696;
     text-align: center;
@@ -54,6 +55,7 @@ header {
     justify-content: right;
     margin: auto;
 }
+
 
 .rainbow {
     background-color: #E2EFF1;
@@ -87,6 +89,10 @@ header {
 .color4 {
     @extend .color1;
     background-color: $color4;
+}
+
+.color1:hover, .color2:hover, .color3:hover, .color4:hover {
+    background-color: #434343;
 }
 
 .ball1 {

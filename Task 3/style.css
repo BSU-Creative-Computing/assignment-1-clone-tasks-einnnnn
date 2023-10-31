@@ -69,6 +69,10 @@ header {
   background-color: #FFA372;
 }
 
+.color1:hover, .color2:hover, .color3:hover, .color4:hover {
+  background-color: #434343;
+}
+
 .ball1, .ball4, .ball3, .ball2 {
   background-color: #FFA372;
   height: 100px;
