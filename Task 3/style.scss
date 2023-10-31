@@ -56,7 +56,7 @@ header {
     margin: auto;
 }
 
-
+//The following code is for main section 
 .rainbow {
     background-color: #E2EFF1;
     width: 100%;
@@ -70,6 +70,7 @@ header {
     height: 100%;
 }
 
+//Declares colors for the lines on the main part
 .color1 {
     background-color: $color1;
     height: 40px;
@@ -95,6 +96,7 @@ header {
     background-color: #434343;
 }
 
+//Declares the colors for the balls
 .ball1 {
     background-color: $color4;
     height: 100px;
@@ -131,6 +133,7 @@ header {
     background-color: #434343;
 }
 
+//Declares flex on div with class main-balls and changes the direction of the balls depending on the screen size
 .main-balls {
     display: flex;
     flex-direction: row;
